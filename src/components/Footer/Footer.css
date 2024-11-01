@@ -1,0 +1,28 @@
+.footer{
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #797979;
+}
+.footer .socials img{
+    display: inline-block;
+    margin: 20px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.footer p{
+    color: #797979;
+    margin: 20px;
+}
+
+@media(max-width: 600px){
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .footer ul li{
+        margin: 10px;
+    }
+}

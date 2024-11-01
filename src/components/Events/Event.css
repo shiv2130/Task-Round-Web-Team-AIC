@@ -1,0 +1,63 @@
+.campus{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+
+}
+
+.gallery{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.gallery img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 20%;
+    border-radius: 20px;
+
+}
+
+.btn1{
+        background: #172ce5;
+        color: #fff;
+        padding: 14px 25px;
+        font-size: 16px;
+        border-radius: 30px;
+        cursor: pointer;
+        border: 0;
+        outline: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    
+}
+
+.btn1 img{
+
+    width: 20px;
+    margin-left: 10px;
+}
+
+.btn1.light-btn{
+    background: #934ba7;
+    color: #fff;
+}
+
+/* media-query */
+
+@media (max-width: 650px){
+    .campus{
+        
+        flex-direction: column;
+    }
+    .gallery{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+}
+
+
